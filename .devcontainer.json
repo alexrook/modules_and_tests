@@ -1,0 +1,8 @@
+{
+  "image": "rust:1.78.0-buster",
+  "customizations": {
+    "vscode": {
+      "extensions": ["rust-lang.rust-analyzer","vadimcn.vscode-lldb","serayuzgur.crates","tamasfe.even-better-toml"]
+    }
+  }
+}
