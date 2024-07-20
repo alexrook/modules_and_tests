@@ -1,5 +1,5 @@
 use modules_and_tests::counter::signed::SignedCounter;
-use modules_and_tests::pair::{default_pair, Pair};
+use modules_and_tests::pair::Pair;
 
 fn main() {
     println!(
@@ -7,6 +7,6 @@ fn main() {
         SignedCounter::default_signed_counter()
     );
 
-    let pair: Pair = default_pair();
-    println!("In Main default_pair[({},{})]", pair.0, pair.1)
+    let pair: Pair = Pair::default_pair();
+    println!("In Main default_pair[({},{})]", pair.left, pair.right)
 }
